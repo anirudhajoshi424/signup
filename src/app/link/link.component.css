@@ -1,0 +1,70 @@
+        
+.text {
+        font-size:40px; 
+        color: #f44336; 
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+      }
+
+
+.message {
+            font-size: 12px;
+            color: solid black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+        top: 65%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+.button1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            background-color: white; 
+    border: 2px solid #f44336;
+    color: #f44336;
+    padding: 10px 45px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 9px;
+    
+}
+
+.dummy {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+border: none;
+color: gray;
+padding: 10px 45px;
+display: inline-block;
+font-weight: bold;
+font-size: 9px;
+
+}
+
+.image {
+    background-image: url('/picture.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+}
+
