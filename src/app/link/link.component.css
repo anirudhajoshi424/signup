@@ -61,10 +61,8 @@ font-size: 9px;
 
 }
 
-.image {
+body {
     background-image: url('/picture.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top; 
+   
 }
 

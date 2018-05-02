@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
+import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -21,7 +22,8 @@ import { ExitComponent } from './exit/exit.component';
   ],
   imports: [
     BrowserModule,
-    
+    HttpModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: 'link', pathMatch: 'full'},
       { path: 'link', component: LinkComponent},

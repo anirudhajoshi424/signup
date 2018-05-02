@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class LinkComponent implements OnInit {
 
+
+ 
   constructor(private router: Router) { }
 
   ngOnInit() {
