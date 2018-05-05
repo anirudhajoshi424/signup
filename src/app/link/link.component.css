@@ -6,7 +6,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         position: absolute;
-        top: 50%;
+        top: 56%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
@@ -19,7 +19,7 @@
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             position: absolute;
-        top: 65%;
+        top: 70%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
@@ -29,9 +29,10 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             position: absolute;
-            top: 75%;
+            top: 83%;
             left: 50%;
             margin-right: -50%;
+            cursor: pointer;
             transform: translate(-50%, -50%);
             background-color: white; 
     border: 2px solid #f44336;
@@ -42,16 +43,18 @@
     font-size: 9px;
     
 }
+.button1:hover {background-color: #e7e7e7;}
 
 .dummy {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     position: absolute;
-    top: 83%;
+    top: 90%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background-color: white; 
+    cursor: not-allowed;
 border: none;
 color: gray;
 padding: 10px 45px;
@@ -61,8 +64,16 @@ font-size: 9px;
 
 }
 
-body {
-    background-image: url('/picture.png');
-   
-}
 
+   
+
+
+.responsive {
+    display: block;
+    position: relative;
+    top: -90px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -13,6 +13,7 @@
     cursor: pointer;
     text-align: center;
 }
+.button:hover {background-color: #e7e7e7;}
 .inbuit {
     width: 20%;
     padding: 15px;
